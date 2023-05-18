@@ -1,11 +1,11 @@
-a = int(input())
-d = str(a)
-b = a*a
-c = str(b)
-for i in range(len(c)):
-    if d in c:
+a  = int(input())
+b = str(a)
+c = a*a
+d = str(c)
+for i in d:
+    if b in d:
         print("Automorphic Number")
         break
     else:
-        print("Not an Automorphic Number") 
+        print("Not an Automorphic Number")
         break
