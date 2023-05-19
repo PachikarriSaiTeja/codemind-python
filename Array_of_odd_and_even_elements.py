@@ -1,17 +1,13 @@
 a = int(input())
-k = list(map(int,input().split()))
-m=[ ]
+k = list(map(int, input().split()))
+n = [ ]
 for i in k:
-    if(i%2!=0):
-        m.append(i)
+    if i%2!=0:
+        n.append(i)
+        print(i,end=" ")
 for i in k:
-    if(i%2==0):
-        m.append(i)
-for j in m:
-    print(j,end=' ')
-
-        
-    
-
-
-    
+    if i%2==0:
+        n.append(i)
+        print(i,end=" ")
+   
+ 
