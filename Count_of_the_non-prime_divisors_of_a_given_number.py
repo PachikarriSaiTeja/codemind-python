@@ -8,10 +8,9 @@ def p(x):
     else:
         return False
 a = int(input())
-cn=0
+c=1
 for i in range(1,a):
     if a%i==0:
         if p(i) is False:
-            cn+=1
-print(cn+1)
-            
+            c+=1
+print(c)
