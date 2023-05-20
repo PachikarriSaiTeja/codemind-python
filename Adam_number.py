@@ -1,12 +1,12 @@
 a = input()
-b = a[::-1]
-c = int(a)
-d = c*c
-e = int(b)
-f = e*e
-g = str(f)[::-1]
-h = str(d)
-if(g==h):
+b = int(a)
+c = a[::-1]
+d = int(c)
+e=d*d
+g=str(e)
+f=b*b
+h=str(f)
+if g==h[::-1]:
     print("True")
 else:
     print("False")
