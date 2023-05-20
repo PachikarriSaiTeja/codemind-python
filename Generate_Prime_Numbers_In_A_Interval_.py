@@ -1,12 +1,15 @@
-#primes in range
-m=int(input())
-n =int(input())
-f = 0
-for i in range(m,n):
-    if(i>1):
-        for j in range(2,i):
-            if(i%j)==0:
-                break
-        else:
-            print(i)
-            
+def p(x):
+    c=0
+    for i in range(1,x+1):
+        if x%i==0:
+            c+=1
+    if c==2:
+        return True
+    else:
+        return False
+a = int(input())
+b = int(input())
+c=0
+for i in range(a,b):
+    if p(i) is True:
+        print(i)
